@@ -64,6 +64,27 @@ The `outputs/charts/` folder contains:
 7. Country footprint
 8. Operator footprint
 
+## Key business insights
+- 4,802 mapped data-center facilities are present in the facility-level dataset.
+- The United States has 1,789 mapped facilities, followed by France (371), Germany (300), UK (293), and Netherlands (167).
+- North America contains 1,926 mapped facilities and approximately 39.4M m² of mapped footprint.
+- 67.2% of facilities are unclassified, which is the biggest limitation for detailed market-segmentation analysis.
+- Major operators by mapped facility count include AWS (299), Equinix (177), Digital Realty (175), Microsoft (125), and Google (89).
+- Metadata completeness is uneven:
+  Name: 76.4%
+  Operator: 60.1%
+  Footprint: 81.1%
+  City: 34.7%
+  Start date: 4.0%
+- Median facility footprint is approximately 5,661 m², while the mean is approximately 17,391 m², indicating strong right-skew.
+- External reported totals differ substantially from mapped counts. For example, the latest comparison shows:
+  United States: +2,299
+  China: +244
+  UK: +213
+  Germany: +207
+  India: +205
+These differences should be interpreted as source/definition/coverage differences, not automatically as evidence that one source is incorrect.
+
 ## Senior analyst conclusion
 This dataset is strongest as a **global infrastructure inventory and market-screening layer**. It provides useful directional evidence on geographic concentration, operator presence and physical footprint.
 Its biggest limitation is metadata completeness: classification, operator, city and development-date fields contain substantial gaps. Therefore, it should not be used alone for precise market sizing, development-pipeline estimation or investment decisions.
