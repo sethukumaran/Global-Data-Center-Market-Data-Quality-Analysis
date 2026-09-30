@@ -1,5 +1,4 @@
 -- Global Data Center Market Analysis
--- PostgreSQL-style SQL
 
 -- 1. Overall inventory
 SELECT COUNT(*) AS total_facilities FROM data_centers;
