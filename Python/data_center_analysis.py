@@ -1,8 +1,6 @@
 """
 Global Data Center Market Analysis
-Run from project root:
-    pip install -r requirements.txt
-    python src/data_center_analysis.py
+
 """
 import os
 import pandas as pd
