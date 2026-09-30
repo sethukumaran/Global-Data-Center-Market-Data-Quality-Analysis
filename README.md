@@ -98,4 +98,3 @@ However, before using it for high-confidence market sizing, competitive market s
 - Increase construction/start-date coverage.
 - Establish a formal reconciliation process between mapped and externally reported facility counts.
 
-**Final takeaway:** improve classification, operator attribution, geographic metadata and source reconciliation before turning this inventory into a high-confidence market-sizing or strategic investment dataset.
